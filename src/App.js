@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Graph from './components/graph.js'; 
 
-function App() {
+
+function App() {  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <div className="App_header">
+        <h1>Malla de Economía</h1>
+        </div>
+        <p className="Author">Malla no oficial, creada por el estudiante de Economía e Ingeniería en Ciencias de la computación, Daniel Jaramillo</p> 
+      </div>
+       <Graph />
     </div>
   );
 }
